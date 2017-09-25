@@ -1,7 +1,5 @@
 {
   "name": "es6-boilerplate",
-  "version": "1.0.0",
-  "description": "Standard ES6 Boilerplate configured with babel, webpack and eslint.",
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel dev:server lint:watch",
@@ -11,11 +9,6 @@
     "lint": "node_modules/.bin/esw webpack.config.* src --color",
     "lint:watch": "npm run lint -- --watch"
   },
-  "keywords": [
-    "es6"
-  ],
-  "author": "metagrover",
-  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.1",

@@ -3,13 +3,30 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>ES6 Boilerplate</title>
 </head>
 <body>
     <h1>ES6 Boilerplate</h1>
-    <p>Check console for details</p>
-    <div id="main"></div>
-
+    <div class="main">
+      <div>
+          <label>Principal:</label>
+          <input type="text" id="principal" value="200000"/>
+      </div>
+      <div>
+          <label>Years:</label>
+          <input type="text" id="years" value="30"/>
+      </div>
+      <div>
+          <label htmlFor="rate">Rate:</label>
+          <input type="text" id="rate" value="5.0"/>
+      </div>
+      <div>
+          <label htmlFor="calcBtn"></label>
+          <button id="calcBtn">Calculate</button>
+      </div>
+    <h2>Monthly Payment: <span id="monthlyPayment" class="currency"></span></h2>
+  </div>
     <script type="text/javascript" src="dist/bundle.js"></script>
 </body>
 </html>
